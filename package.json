@@ -1,0 +1,15 @@
+{
+  "name": "push-notifications",
+  "version": "1.0.0",
+  "description": "Push notifications codelab.",
+  "scripts": {
+    "lint": "eslint '.'",
+    "test": "npm run lint",
+    "deploy": "gcloud app deploy"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "eslint-config-google": "^0.7.0"
+  },
+  "license": "Apache 2"
+}
